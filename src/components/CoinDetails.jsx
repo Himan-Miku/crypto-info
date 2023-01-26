@@ -71,7 +71,7 @@ const CoinDetails = () => {
           <div className="text-white flex flex-col gap-2 bg-gray-700 rounded-xl p-4">
             <p className="flex flex-row text-base font-medium p-4 gap-6"> <UilAnalytics /> Number of Markets : {data?.data.coin.numberOfMarkets} </p>
             <p className="flex flex-row text-base font-medium p-4 gap-6"> <UilComparison /> Number of Exchanges : {data?.data.coin.numberOfExchanges} </p>
-            <p className="flex flex-row text-base font-medium p-4 gap-6"> <UilExclamationTriangle /> Approved Supply : {data?.data.coin.supply.confirmed} </p>
+            <p className="flex flex-row text-base font-medium p-4 gap-6"> <UilExclamationTriangle /> Approved Supply : {data?.data.coin.supply.confirmed ? <UilCheckCircle /> : <UilTimesCircle />} </p>
             <p className="flex flex-row text-base font-medium p-4 gap-6"> <UilExclamationTriangle /> Total Supply : $ {millify(data?.data.coin.supply.total)} </p>
             <p className="flex flex-row text-base font-medium p-4 gap-6"> <UilExclamationTriangle /> Change : {millify(data?.data.coin.change)} % </p>
           </div>
