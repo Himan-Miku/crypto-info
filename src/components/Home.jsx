@@ -6,8 +6,8 @@ import { Link } from "react-router-dom";
 
 const config = {
   headers: {
-    "X-RapidAPI-Key": "769cdbfcb9mshde8cd22a383274fp140503jsn6cc79d0c29a0",
-    "X-RapidAPI-Host": "coinranking1.p.rapidapi.com",
+    "X-RapidAPI-Key": import.meta.env.VITE_API_KEY,
+    "X-RapidAPI-Host": import.meta.env.VITE_API_HOST,
   },
 };
 
