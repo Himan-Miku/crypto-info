@@ -3,15 +3,7 @@ import { useParams } from "react-router-dom";
 import { useQuery } from "react-query";
 import millify from "millify";
 import Axios from "axios";
-import { UilUsdCircle } from '@iconscout/react-unicons'
-import { UilListOlAlt } from '@iconscout/react-unicons'
-import { UilBoltAlt } from '@iconscout/react-unicons'
-import { UilTrophy } from '@iconscout/react-unicons'
-import { UilAnalytics } from '@iconscout/react-unicons'
-import { UilComparison } from '@iconscout/react-unicons'
-import { UilExclamationTriangle } from '@iconscout/react-unicons'
-import { UilCheckCircle } from '@iconscout/react-unicons'
-import { UilTimesCircle } from '@iconscout/react-unicons'
+import { UilTimesCircle, UilCheckCircle, UilExclamationTriangle, UilComparison, UilAnalytics, UilTrophy, UilBoltAlt, UilUsdCircle, UilListOlAlt } from '@iconscout/react-unicons'
 
 const config = {
   headers: {
